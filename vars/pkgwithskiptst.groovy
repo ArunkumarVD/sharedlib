@@ -6,4 +6,3 @@ def call(){
     //Execute the maven command in a shell
     sh script: mavenCommand, returnStatus: true
 }
-}
