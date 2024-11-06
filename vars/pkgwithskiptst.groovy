@@ -1,5 +1,5 @@
 def call(){
-    stage('Maven Package')
+   
       //define maven command to be executed
     def mavenCommand = 'mvn package -DskipTests=true'
 
